@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 
 # Set the Google API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBmCFo6_weCFylhnK85u3HL_NhZfCgxudo"
+os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Path to the PDF folder
 pdf_folder = "static/pdf_folder"
