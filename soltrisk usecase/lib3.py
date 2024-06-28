@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 import os
 
 # Set the Google API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBmCFo6_weCFylhnK85u3HL_NhZfCgxudo"
+os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Path to the image folder
 image_folder = "static/images"
