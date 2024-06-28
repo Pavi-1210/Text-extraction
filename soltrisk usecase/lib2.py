@@ -4,7 +4,7 @@ from langchain_core.prompts import ChatPromptTemplate
 import textract
 
 # Set the Google API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBmCFo6_weCFylhnK85u3HL_NhZfCgxudo"
+os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Set the Tesseract-OCR path and TESSDATA_PREFIX
 tesseract_path = r"C:/Program Files/Tesseract-OCR/tesseract.exe"
